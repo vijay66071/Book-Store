@@ -1,0 +1,10 @@
+02P*/
+03Pro*/
+Frontend/.env
+Frontend/node_modules/
+Backend/.env
+Backend/node_modules/
+Frontend/package-lock.json
+Backend/package-lock.json
+Frontend/package.json
+Backend/package.json

@@ -1,0 +1,12 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Top 10 Must-Read Books of 2024",
+      "author": "Sarah Johnson",
+      "date": "2024-04-18",
+      "content": "Looking for your next great read? Check out our curated list of the top 10 must-read books of 2024, featuring a diverse range of genres and authors.",
+      "tags": ["books", "reading", "literature", "recommendations"]
+    }
+  ]
+}
