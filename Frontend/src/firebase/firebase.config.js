@@ -1,19 +1,23 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+import dotenv from 'dotenv';
+
+dotenv.config();
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
 const firebaseConfig = {
-  apiKey: "AIzaSyAe92rWfpxdmT4IQohihBFDcrvud3KSeNc",
-  authDomain: "bookstore-988cf.firebaseapp.com",
-  projectId: "bookstore-988cf",
-  storageBucket: "bookstore-988cf.appspot.com",
-  messagingSenderId: "91798740103",
-  appId: "1:91798740103:web:9ca6bd3645e74177ceec22",
-  measurementId: "G-KBB7T4K3MD"
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_APP_ID,
+  measurementId: process.env.REACT_APP_MEASUREMENT_ID
 };
 
 // Initialize Firebase
